@@ -12,15 +12,19 @@
   }
   
 p {
+  font-style: italic;
+  
     background-color: #bfbfbf;
     border: 2px solid black;
     height: 150px;
     margin-right: 10px;
+    margin-left: 10px;
     text-align: center;
-    padding: 80px 10px 5px 30px;
+    padding: 70px 20px  5px 20px;
     overflow: hidden;
   }
   #p1 {
+    font-style: italic;
     background-color: #D59898;
     position: absolute;
     top: 0;
@@ -31,9 +35,11 @@ p {
     padding: 10px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
   
   }
   #p2 {
+    font-style: italic;
     background-color:#C14543 ;
     color: white;
     position: absolute;
@@ -45,9 +51,11 @@ p {
     padding: 10px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
   
   }
   #p3 {
+    font-style: italic;
     background-color: #E5D198;
      position: absolute;
      top: 0;
@@ -58,5 +66,6 @@ p {
      padding: 10px;
      text-align: center;
      font-family: Arial, Helvetica, sans-serif;
+     box-sizing: border-box;
    
    }
